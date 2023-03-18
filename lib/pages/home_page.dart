@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(title: Text("Catalog App")),
       body: Center(
         child: Container(
-          child: Text("Welcome to Hello Workd App"),
+          child: const Text("Welcome to Hello Workd App"),
         ),
       ),
       drawer: Drawer(),
